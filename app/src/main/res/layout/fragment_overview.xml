@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.bottleneck.dabba.Overview">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/cast_expanded_controller_seekbar_thumb" />
+
+    <TextView
+        android:id="@+id/ratingEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginTop="31dp"
+        android:text="Rating"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/describeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneEditText"
+        android:layout_marginTop="25dp"
+        android:text="Description"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/cancleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Cancle" />
+
+    <TextView
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="34dp"
+        android:text="Name "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/phoneEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Phone"
+        android:textSize="16sp"
+        android:layout_below="@+id/nameEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

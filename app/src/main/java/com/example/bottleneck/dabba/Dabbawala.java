@@ -26,21 +26,21 @@ public class Dabbawala extends AppCompatActivity {
     }
     private void CreateListView()
     {
-        namelist.add("DB1"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB12"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB2"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB3"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
-        namelist.add("DB4"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
+        namelist.add("Mukesh"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
+        namelist.add("Ramesh"+"\n"+"Pickup Time:8:00am \t Drop Time: 1:00pm");
+        namelist.add("Nitin"+"\n"+"Pickup Time:9:00am \t Drop Time: 2:00pm");
+        namelist.add("Rajesh"+"\n"+"Pickup Time:10:00am \t Drop Time: 2:00pm");
+        namelist.add("Tiwari"+"\n"+"Pickup Time:7:00am \t Drop Time: 1:00pm");
+        namelist.add("Sumit"+"\n"+"Pickup Time:8:00am \t Drop Time: 2:00pm");
+        namelist.add("Anand"+"\n"+"Pickup Time:9:00am \t Drop Time: 11:00pm");
+        namelist.add("Shasank"+"\n"+"Pickup Time:10:00am \t Drop Time: 12:00pm");
+        namelist.add("Mukesh"+"\n"+"Pickup Time:11:00am \t Drop Time: 2:00pm");
+        namelist.add("Nitin"+"\n"+"Pickup Time:8:00am \t Drop Time: 12:00pm");
+        namelist.add("Tiwari"+"\n"+"Pickup Time:9:00am \t Drop Time: 12:00pm");
+        namelist.add("Mukesh"+"\n"+"Pickup Time:8:00am \t Drop Time: 12:00pm");
+        namelist.add("Nitin"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
+        namelist.add("Tiwari"+"\n"+"Pickup Time:7:00am \t Drop Time: 12:00pm");
+        namelist.add("Mukesh"+"\n"+"Pickup Time:6:00am \t Drop Time: 12:00pm");
 
 
         listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,namelist));
